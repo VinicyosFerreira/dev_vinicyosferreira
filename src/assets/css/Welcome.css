@@ -1,0 +1,38 @@
+.text-welcome {
+    transition-delay: 5s;
+    font-size: 1.8rem;
+}
+
+.welcome-container {
+    min-height: 600px;
+    margin-bottom: 6rem;
+}
+
+.apresentation {
+    width: 45%;
+}
+
+.code {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.btn-curriculum {
+    width: 150px;
+    background-color: rgb(37, 67, 91);
+}
+
+.btn-curriculum:hover {
+    background-color: rgb(37, 67, 91 , 0.3);
+}
+
+@media screen and (max-width: 768px) {
+        .apresentation {
+           width: 90%;
+        }
+
+        .code {
+            max-width: 60%;
+        }
+}
+

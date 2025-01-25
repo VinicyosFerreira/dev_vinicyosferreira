@@ -1,0 +1,12 @@
+.about-me {
+    font-size: 1.15rem;
+    letter-spacing: 1.1px;
+    word-spacing: 5px;
+    min-height: 500px;
+    margin-bottom: 4rem;
+}
+
+.about-me div {
+    min-width: 250px;
+    max-width: 300px;
+}

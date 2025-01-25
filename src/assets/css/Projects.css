@@ -1,0 +1,28 @@
+#projetos {
+    margin-bottom: 4rem;
+}
+
+.card-projects {
+    width: 45%;
+    border: 1px solid rgba(255 , 255 , 255 , 0.3);
+}
+
+.card-header {
+    border-bottom: 1px solid rgba(255 , 255 , 255 , 0.3) ;
+}
+
+.icon-github svg {
+    font-size: 3rem;
+    fill: #fff;
+}
+
+.icon-global svg {
+    font-size: 3rem;
+    fill: lightblue;
+}
+
+@media screen and (max-width: 992px) {
+    .card-projects {
+        width: 100%;
+    }
+}

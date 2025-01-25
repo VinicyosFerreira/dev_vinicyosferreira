@@ -1,0 +1,83 @@
+.skills {
+    margin-bottom: 5rem;
+}
+
+.skills i>svg {
+    font-size: 10rem;
+}
+
+.skills i>svg:hover{
+    transform: scale(1.1);
+}
+
+.skills > div:nth-child(1) svg{
+    fill: #F7E018;
+}
+
+.skills > div:nth-child(2) svg{
+    fill: #61DBFB;
+}
+
+.skills > div:nth-child(3) svg{
+    fill: #7A7EB0
+}
+
+.skills > div:nth-child(4) svg{
+   fill: #4479A1;
+}
+
+.skills >div:nth-child(5) svg {
+    fill: #FC490B
+}
+
+.skills >div:nth-child(6) svg {
+    fill: #2163E9
+}
+
+.skills >div:nth-child(7) svg {
+    fill: #F4511E
+}
+
+.skills >div:nth-child(8) svg {
+    fill: #780FF1;
+}
+
+.skills > div {
+    border: 1px solid rgba(255 , 255 , 255 , 0.3);
+
+}
+
+
+@media screen and (max-width: 992px) {
+    .skills {
+        gap: .7rem;
+    }
+
+    .skills div {
+        width: 30%;
+    }
+
+    i > svg {
+        font-size: 8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skills div {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .skills div{
+        width: 45%;
+    }
+
+    .skills i>svg {
+        font-size: 7rem;
+    }
+    
+}
+
+
+

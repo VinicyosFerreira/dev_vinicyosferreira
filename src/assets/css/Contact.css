@@ -1,0 +1,42 @@
+.contact a {
+    background-color: rgba(40, 70, 96, 0.6);
+    border-radius: 15px;
+    width: 50%;
+    margin: 1rem;
+    height: 85px;
+}
+
+.contact i > svg {
+    font-size: 4.5rem;
+}
+
+.contact span {
+    width: 100px;
+}
+
+.contact a:nth-child(1) > i {
+    color: #25AC11;;
+}
+
+.contact a:nth-child(2) > i {
+    color: #D14836;;
+}
+
+.contact a:nth-child(3) > i {
+    color: #0A63BC;
+}
+
+.contact a:nth-child(4) > i {
+    color: #181717;
+}
+
+.contact a {
+    color: #fff;
+}
+
+
+@media screen and (max-width: 576px) {
+    .contact a {
+        width: 80%;
+    }
+}
