@@ -15,8 +15,8 @@ function AboutMe() {
           <section className="col-md-8 col-lg-7 col-10">
           <h2 className="h2">Sobre</h2>
             <p className='py-2'>
-                Olá chamo Vinicyos Ferreira, tenho 20 anos, sou apaixonado
-                por tecnologia e inovação. Me identifiquei pela TI aos 17
+                Olá me chamo Vinicyos Ferreira, tenho {new Date().getFullYear() - 2004} anos, 
+                sou apaixonado por tecnologia e inovação. Me identifiquei pela TI aos 17
                 anos, quando comecei a pesquisar no Youtube sobre a área. Com
                 grande curiosidade de saber, como eram feitas as paginas web e
                 os aplicativos que consumiam diariamente no celular. 
